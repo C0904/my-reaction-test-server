@@ -12,7 +12,7 @@ async function bootstrap() {
 
   // client Domain OR Host AND allow Http Method
   app.enableCors({
-    origin: ['http://localhost:3000'],
+    origin: ['http://localhost:3000', 'https://speedyreact.com'],
     methods: ['GET', 'PUT', 'POST', 'PATCH', 'DELETE'],
     credentials: true, // accept Cookies OR Authorization Header
   });
